@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+  </head>
+  <body>
+      <a-asset>
+          <img src="https://i.stack.imgur.com/s5BB7.jpg" id="universe"/>
+          
+      </a-asset>
+    <a-scene>
+     <!--Camera Side View-->
+      <a-entity id="cameraWrapper" position="0 0 70">
+        <a-camera>
+          <a-cursor color="yellow" position"0 0 0"></a-cursor>
+        </a-camera>
+      </a-entity>
+    <!--sun-->
+      <a-sphere position="0 1.25 -5" radius="30" color="yellow"></a-sphere>
+    <!--mercury-->
+      <a-sphere position="10 1.25 -5" radius="2" color="orange"></a-sphere>
+    <!--venus-->
+      <a-sphere position="30 1.25 -5" radius="4.5" color="brown"></a-sphere>
+    <!--earth-->
+      <a-sphere position="50 1.25 -5" radius="10" color="green"></a-sphere>
+    <!--mars-->
+      <a-sphere position="70 1.25 -5" radius="2.5" color="red"></a-sphere>
+    <!--jupiter-->
+      <a-sphere position="90 1.25 -5" radius="10" color="brown"></a-sphere>
+    <!--saturn-->
+      <a-sphere position="110 1.25 -5" radius="10" color="grey"></a-sphere>
+    <!--uranus-->
+      <a-sphere position="130 1.25 -5" radius="10" color="lightblue"></a-sphere>
+    <!--neptune-->
+      <a-sphere position="150 1.25 -5" radius="10" color="blue"></a-sphere>
+
+      <a-sky></a-sky>
+    </a-scene>
+    
+  </body>
+</html>
